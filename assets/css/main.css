@@ -1,0 +1,514 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+      font-family:'Poppins', sans-serif !important;
+      position: relative;
+      height: auto;
+      min-height: 100% !important;
+      display: block;
+      background: #e6ffff  !important;
+      
+  }
+
+  .navbar-brand a{
+	  color: white;
+  }
+  .navbar-brand h1 span{
+    color: red;
+    font-weight: 600;
+  }
+  .navbar-brand div{
+    font-size: 10.9px;
+    margin-top: -15px;
+    margin-left: 2.9px;  
+  }
+
+  nav .navbar-nav .nav-item .nav-link:hover{
+    color: #3DCFD3;
+    transition: 0.3s;
+  }
+  nav .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+    background: #3DCFD3;
+    color: navy;
+    transition: 0.3s;
+  }
+  .navbar .collapse .nav-item{
+    margin-right: -5px;
+  }
+  .btn {
+    margin-top: 5px;
+    margin-bottom: 5px; 
+  }
+main{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 85%, 0 100%);
+}
+.container-flex{
+  min-height: 400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 220px) {
+  main{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%, 0 100%);
+}
+  .container-flex
+{
+    min-height:585px;
+}
+}
+@media screen and (min-width: 275px) {
+  main{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 92%, 0 100%);
+}
+  .container-flex{
+    min-height:550px;
+}
+}
+@media screen and (min-width: 325px) {
+  main{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 92%, 0 100%);
+}
+  .container-flex{
+    min-height:500px;
+}
+}
+@media screen and (min-width: 668px) {
+  main{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
+}
+  .container-flex{
+    min-height:400px;
+}
+}
+@media screen and (min-width: 924px) {
+  main{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 85%, 0 100%);
+}
+  .container-flex{
+    min-height:400px;
+}
+}
+
+section.blog{
+  background: #161616;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 85%, 0 100%);
+  min-height: 750px;
+  padding-bottom: 20rem;
+}
+section.blog .section-heading{
+  color: #fff;
+}
+@media screen and (min-width:220px) {
+  section.blog{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%, 0 100%);
+    padding-bottom: 8rem;
+  }
+  
+}
+@media screen and (min-width:275px) {
+  section.blog{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 100%, 0 100%);
+    padding-bottom: 10rem;
+  }
+  
+}
+
+  /*==============================================================================================================*/
+  nav{
+    text-decoration: none;
+    position: absolute;
+    bottom: 0 auto;
+    width: 100%;
+    color: white;
+  }
+  .footer .container a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px 20px 20px;
+  }
+  .footer-brand h1 span{
+    color: red;
+    font-weight: 600;
+  }
+  .footer-brand div{
+    font-size: 10.9px;
+    margin-top: -15px;
+    margin-left: 2.9px; 
+  }
+  .rightmost center{
+    padding: 15px;
+    font-size: 0.9375rem;
+    background: #151515;
+  }
+  .rightmost center .social{
+    margin: 20px 0 0 0;
+  }
+  .rightmost center .social a{
+    padding: 0 2px;
+  }
+  .rightmost center .social a span{
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .rightmost center .social a span:hover{
+    color: navy;
+    transition: 0.3s;
+  }
+  .rightmost center .fab{
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .rightmost .center .fab:hover{
+    background: #3DCFD3;
+    transition: 0.3s;
+  }
+  .rightmost center span{
+    color: #656565;
+  }
+  .rightmost center a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .rightmost center a:hover{
+    color: #3DCFD3;
+    text-decoration: underline;
+  }
+  .footer .container .row .content a:hover{
+    color: #3DCFD3;
+    transition: 0.3s;
+  }
+  .footer .container .row .content .btn a:hover{
+    color:#fff;
+    transition: 0.3s;
+  }
+ /*==============================================================================================================*/ 
+
+  @media screen and (max-width: 900px) {
+    footer{
+      position: absolute;
+      bottom: 0 auto; 
+  }
+}
+
+
+/*===============================================================================================================*/
+@media screen and (min-width: 320px) {
+  .about div.card-body{
+    min-height: 1050px;
+  }
+  .about div img.card-img{
+    height: 350px;
+    width: 225px;
+    padding-top: 10px;
+    margin-bottom: -50px;
+  }
+  
+}
+@media screen and (min-width: 375px) {
+  .about div.card-body{
+    min-height: 1000px;
+  }
+  .about div img.card-img{
+    height: 400px;
+    width: 250px;
+    padding-top: 10px;
+    margin-bottom: -50px;
+  }
+  
+}
+@media screen and (min-width: 425px) {
+  .about div.card-body{
+    min-height: 925px;
+  }
+  .about div img.card-img{
+    height: 500px;
+    width: 300px;
+    padding-top: 10px;
+    margin-bottom: -50px;
+  }
+  
+}
+@media screen and (min-width: 768px) {
+  .about div.card-body{
+    min-height: 750px;
+  }
+  .about div img.card-img{
+    padding-top: 50px;
+    margin-left: -20px;
+    height: 600px;
+    
+  }
+  
+}
+@media screen and (min-width: 1024px) {
+  .about div img.card-img{
+    padding-top: 50px;
+    margin-left: 25px; 
+  }
+  
+}
+@media screen and (min-width: 1440px) {
+  .about div img.card-img{
+    padding-top: 50px;
+    margin-left: 200px; 
+  }
+  
+}
+@media screen and (min-width: 2560px) {
+  .about div img.card-img{
+    padding-top: 50px;
+    margin-left: 550px; 
+  }
+  
+}
+/*===============================================================================================================*/
+
+.signin
+{
+    width:400px;
+    box-shadow: 5px 5px 5px rgba(0.3,0.3 ,0.3, 0.5);
+    background-color: beige;
+    padding: 20px;
+    margin: 4% auto 8%;
+}
+.signin a .far{
+    float: right;
+    color: black;
+    padding-bottom: 4px;
+    font-size: 25px;
+}
+.signin a .far:hover{
+    color: red;
+}
+.signin h1
+{
+    color:black;
+    margin-top: 35px;
+    margin-bottom: 25px;
+	text-align: center;
+}
+.input-box
+{
+    border-radius: 8px ;
+    padding: 10px;
+    margin: 15px;
+	margin-left: 25px;
+	margin-right: 25px;
+    width:80%;
+    border: 2px solid #999;
+    outline: none;
+	position: center;
+}
+.text{
+    margin-left: 25px;
+    font-weight: bold;
+}
+.k{
+	margin-top: 15px;
+	margin-left: 25px;
+}
+.k a{
+	float: right;
+	margin-right: 30px;
+	text-decoration: none;
+	color: #000;
+}
+.k a:hover{
+	color: green;
+	text-decoration: underline;
+}
+.signinbtn
+{
+	color:white;
+    width: 87%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 40px 0px;
+	margin-bottom: 10px;
+    border-style: none;
+    cursor: pointer;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+	margin-left: 85px;
+}
+
+.signin p{
+	text-align: center;
+	
+}
+.signin p a{
+	text-decoration: none;
+	color: blue;
+	float: center-right;
+}
+.signin p a:hover{
+	color: red;
+	text-decoration: underline;
+
+}
+
+@media screen and (max-width: 375px) {
+  .signin
+{
+    width:300px;
+}
+.signinbtn
+{
+	margin-left: 50px;
+}
+}
+
+/*====================================================================================================*/
+
+.signup
+{
+    width:400px;
+    box-shadow: 5px 5px 5px rgba(0.3,0.3,0.3, 0.5);
+    background-color: beige;
+    padding: 20px;
+    margin: 4% auto 8%;
+
+}
+.signup a .far{
+    float: right;
+    color: black;
+    padding-bottom: 4px;
+    font-size: 25px;
+}
+.signup a .far:hover{
+    color: red;
+}
+.signup h1
+{
+    color:black;
+    margin-top: 35px;
+    margin-bottom: 25px;
+	text-align: center;
+}
+.p{
+	margin-top: 15px;
+	float: left;
+	margin-left: 25px;
+}
+.p a{
+	text-decoration: none;
+	color: blue;
+}
+.p a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.signupbtn
+{
+	color: white;
+    width: 87%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 40px 0px;
+	margin-bottom: 10px;
+    border-style: none;
+    cursor: pointer;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+	margin-left: 85px;
+}
+button:hover{
+	color: aqua;
+	
+}
+.signup p{
+	text-align: center;
+	
+}
+.signup p a{
+	text-decoration: none;
+	color: blue;
+	float: center-right;
+}
+.signup p a:hover{
+	color: red;
+	text-decoration: underline;
+
+}
+
+@media screen and (max-width: 375px) {
+  .signup
+{
+    width:300px;
+}
+.signupbtn
+{
+	margin-left: 50px;
+}
+}
+/*==================================================================================================================*/
+
+.scroll {
+  color: #fff;
+  margin-top: 100px;
+}
+
+#toTopBtn {
+  position: fixed;
+  bottom: 26px;
+  right: 39px;
+  z-index: 98;
+  padding: 21px;
+  background-color: black;
+}
+
+.js .cd-top--fade-out {
+  opacity: .5;
+}
+
+.js .cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.js .cd-top {
+  visibility: hidden !important;
+  opacity: 0;
+  transition: opacity .3s, visibility .3s, background-color .3s
+}
+
+.cd-top {
+  position: fixed;
+  bottom: 20px;
+  bottom: var(--cd-back-to-top-margin);
+  right: 20px;
+  right: var(--cd-back-to-top-margin);
+  display: inline-block;
+  height: 40px;
+  height: var(--cd-back-to-top-size);
+  width: 40px;
+  width: var(--cd-back-to-top-size);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+  background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+  background-color: hsla(5, 76%, 62%, .8);
+  background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+}
+

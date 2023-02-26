@@ -1,0 +1,262 @@
+<?php
+	$page_title = "actiUGI";
+	include_once('includes/header.php');
+?>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/ucer.jpg" class="d-block w-100" alt="slider image">
+    </div>
+    <div class="carousel-item">
+      <img src="images/aweins.jpg" class="d-block w-100" alt="slider image">
+    </div>
+    <div class="carousel-item">
+      <img src="images/onlineedu.jpg" class="d-block w-100" alt="slider image">
+    </div>
+    <div class="carousel-item">
+      <img src="images/celebrity.jpg" class="d-block w-100" alt="slider image">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<main>
+<div id="intro" class="container-flex text-center" style="background-image: url('images/headfoot.png'); color: white;">
+  <div class="card-body">
+    <br>
+    <h4 class="card-title"><span style="color: #3DCFD3;">Hola!</span> Welcome to <a class="navbar-brand" href="index.php"><h3 style="color:white;">acti<span style="color: red;">UGI</span></h3></a></h4>
+    <p class="card-text">actiUGI always dedicated to provide the best glimpses of United Group of Institutions 
+      to their users.<br> Here one can get all important updates about UGI such as -<br> events, workshops, webinars, 
+      all exams(sessionals, semesters, etc.), question papers, other important activities and a lot more...</p><br>
+    <h5 class="card-title"><span style="color: #3DCFD3;">Not a member yet? Join us today to get latest updates about UGI</span></h5>
+  </div>
+</div>
+</main>
+<div id="glimpses" class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="images/campus-1.jpg" class="card-img-top" alt="campus image">
+            <div class="card-body">
+              <h5 class="card-title">United Group of Institutions</h5>
+              <p class="card-text">The <strong>United Group of Institutions,</strong> founded by<strong> late Shri Shiv Ram Das Gulati in 1951</strong> 
+              emerged from a transport business to the giants in the fields of education, services, transportation and journalism. 
+              The group made a mammoth leap in the education arena in the mid 80s by being the pioneers in computer education. And...</p>
+              <a href="ugi.php" class="card-link" style="float: right;">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="images/campus-2.jpg" class="card-img-top" alt="campus image">
+            <div class="card-body">
+            <h5 class="card-title">Unted College of Engineering and Research, Prayagraj</h5>
+              <p class="card-text">United College of Engineering and Research, Prayagraj is the first college of UGI established in 1951. 
+              <b>And now, with 09 well established institutes in Allahabad and Greater Noida, over 11200 students and 
+              more than 750 faculty members,</b> the United Group of Institutions is poised to reach...
+              </p>
+              <a href="ucer.php" class="card-link" style="float: right;">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="images/campus-3.jpg" class="card-img-top" alt="campus image">
+            <div class="card-body">
+            <h5 class="card-title">Central Library</h5>
+              <p class="card-text"></p>
+              <a class="card-link" href="library.php" style="float: right;">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="images/campus-4.jpg" class="card-img-top" alt="campus image">
+            <div class="card-body">
+            <h5 class="card-title">Life @ UGI</h5>
+              <p class="card-text"></p>
+              <a href="activities.php" class="card-link" style="float: right;">Read more</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  <div class="jumbotron" style="background-image: url('images/htop.jpg'); color: white;" >
+  <h5 class="display-5">Hey, do you know about your college? Just go ahead & explore interesting glimpses about your college...</h5>
+        <a href="ugi.php" class="btn btn-info mr-2">UGI</a>
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+          <a href="ucer.php" class="btn btn-outline-warning">UCER</a>  
+        </div>
+        <div class="btn-group mr-2" role="group" aria-label="Second group">
+          <a href="uit.php" class="btn btn-outline-warning">UIT</a>  
+        </div> 
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+          <a href="ucem.php" class="btn btn-outline-warning">UCEM</a>  
+        </div>
+        <div class="btn-group mr-2" role="group" aria-label="Second group">
+          <a href="uimf.php" class="btn btn-outline-warning">UIM-FUGS</a>  
+        </div> 
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+          <a href="uim.php" class="btn btn-outline-warning">UIM</a>  
+        </div>
+        <div class="btn-group mr-2" role="group" aria-label="Second group">
+          <a href="uip.php" class="btn btn-outline-warning">UIP</a>  
+        </div>
+</div>
+</div>
+
+
+<main id="actian">
+<div class="container-flex text-center" style="background-image: url('images/headfoot.png'); color: white;">
+  <div class="card-body">
+        <br>
+        <h4 class="card-title">Hey yaa, Let's go for an <span>acti</span><span style="color: red;" >AN!</span></h4>
+        <br>
+        <p class="card-text">Hello User, actiUGI values your efforts and feels happy to invite you as an actiAN. 
+          As an active actiAN member, you can contribute your content, share your thoughts & experiences on actiUGI 
+          to help others.</p>
+          <h6 class="card-title">And as a genuine actiAN, you also have<span style="color: #3DCFD3;"> a chance to become a core actiUGI developer member</span> 
+          after fulfilling certain specified criteria...</h6>
+          <a href="actian.php" class="card-link" style="float: right;">...check details</a><br>
+    
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+          <a href="actianform.php" class="btn btn-outline-success">Become an actiAN!</a>  
+        </div>
+        <div class="btn-group mr-2" role="group" aria-label="Second group">
+          <a href="actian.php" class="btn btn-outline-info">Check Eligibility Criteria</a>  
+        </div>
+  </div>
+</div>
+</main>
+<main id="blogs">
+<section  class="blog" style="background-image: url('images/abstract.jpg');" >
+<div class="container">
+    <br>
+<h4 class="section-heading text-center"><span style="color: #3DCFD3">Our </span>Blogs</h4>
+<p class="section-heading text-center">These are the latest blogs</p>
+<div class="card-deck">
+  <div class="card">
+    <img src="blogs/blog1.jpg" class="card-img-top" alt="Blog2 Image">
+    <div class="card-body">
+      <h5 class="card-title">Starting a new job as a Blogger...</h5>
+      <p class="card-text">
+      Hello & Welcome guys! 
+      My name is Sudhanshu Maurya and I am pursuing a Bachelor of Technology with a specialization in Information 
+      Technology from the United College of Engineering & Research, Prayagraj, UP. Recently, I am in my 2nd year 
+      when I am starting my career as a Blogger.
+      </p>
+      <a href="https://bobtekzone.onlyiwin.com/2021/03/starting-new-job-as-blogger.html" target="_blank" style="text-decoration: none; float: right;">
+      <small>...Read more</small>
+    </a>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Sudhanshu Maurya - March 27, 2021</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="blogs/blog2.jpg" class="card-img-top" alt="Blog2 Image">
+    <div class="card-body">
+      <h5 class="card-title">Proposal Writing : Introduction, Objective, Format, Editable Templates</h5>
+      <p class="card-text">
+        Fun Fact: We all are very familiar with the word 'propose' mostly used by adults in reference to propose a girl 
+        to become their partner/girlfriend/boyfriend. Besides this, the actual fact is discussed below-<br><br>
+      </p>
+      <a href="https://bobtekzone.onlyiwin.com/2021/04/proposal-writing-introduction-objective.html" target="_blank" style="text-decoration: none; float: right;">
+      <small>...Read more</small>
+    </a>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Sudhanshu Maurya - April 11, 2021</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="blogs/blog3.jpg" class="card-img-top" alt="Blog3 Image">
+    <div class="card-body">
+      <h5 class="card-title">How to make a time-table using HTML</h5>
+      <p class="card-text">
+      Time-Table is one of the basic requirements of an individual, institutions, schools, colleges, organizations, 
+      and other firms. Anyone can create a timetable by knowing the basics of HTML. <br>
+      Steps to create a time-table:<br><br>
+      </p>
+      <a href="https://bobtekzone.onlyiwin.com/2021/05/how-to-make-time-table-using-html.html" target="_blank" style="text-decoration: none; float: right;">
+      <small>...Read more</small>
+    </a>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Sudhanshu Maurya - May 12, 2021</small>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<main class="about" id="aboutme">
+  <div class="card mb-3" style="background-image: url('images/headfoot.png'); color:white;">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="images/man.png" class="card-img" alt="Developer Image">
+        </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <br>
+            <h2 class="card-title">Sudhanshu <span style="color: #3DCFD3">Maurya</span></h2>
+            <h1>I'm a <span style="color:#3DCFD3;">Web Developer | Programmer | Blogger</span></h1><br>
+            <p>
+                            I'm a pre-final year Bachelor of Technology pursuing scholar with specialization in 
+                            Information Technology from United College of Engineering & Research, Prayagraj, UP, India-211010.
+                            I'm always ready to learn new skills and upgrade Myself with new technologies.
+                            As a B. Tech. scholar, I like cooking good codes(using Python & C), 
+                            designing websites(using HTML, CSS, JavaScript, PHP, MySQL), and a lot more...<br>
+                            Now I'm working on improving my skills in Web Development & Coding and for that 
+                            I'm making myself free to join internship programs in good organizations, and get experience.  
+                        <br>
+                        <strong style="color:#3DCFD3;">I code and design awesome things, and I love what I do.</strong></p>
+                        <strong>Connect with me on:</strong>
+                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                        <div class="btn-group mr-2" role="group" aria-label="First group">
+                          <a href="https://www.linkedin.com/in/chivbobby/" target="_blank" class="btn btn-outline-secondary">Linkedin</a>
+                          <a href="https://github.com/chivbobby" target="_blank" class="btn btn-outline-secondary">Git Hub</a>
+                          <a href="https://bobtekzone.onlyiwin.com/" target="_blank" class="btn btn-outline-secondary">Blogger</a>
+                        </div><br>
+                        <div class="btn-group mr-2" role="group" aria-label="Second group">
+                          <a href="https://www.instagram.com/chiv_bobby/" target="_blank" class="btn btn-outline-secondary">Instagram</a>
+                          <a href="https://www.facebook.com/sudhanshu.maurya.925059/" target="_blank" class="btn btn-outline-secondary">Facebook</a>
+                        </div> 
+                        </div>
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group mr-2" role="group" aria-label="First group">
+                  <a href="https://drive.google.com/file/d/12D-JscSf6NVpuvE9L25cSWXyqhDtwroW/view?usp=sharing" target="_blank" class="btn btn-outline-info">DOWNLOAD CV</a>  
+                </div>
+                <div class="btn-group mr-2" role="group" aria-label="Second group">
+                  <a href="https://forms.gle/dsL1sJwKDp8FBp2X9" target="_blank" class="btn btn-outline-warning">HIRE ME</a>  
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<main>
+
+</main>
+
+<a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+
+  <?php
+	include_once('includes/footer.php');
+	  
+
